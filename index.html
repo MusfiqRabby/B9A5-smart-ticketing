@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- fontawesome link  -->
+    <script src="https://kit.fontawesome.com/c3e1ff8662.js" crossorigin="anonymous"></script>
+    
+    <!-- google fonts link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   
+    <style>
+        .font-railway{
+            font-family: 'Railway', sans-serif;
+        }
+    </style>
+
+     <!-- tailwind customs color -->
+     <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#',
+                'color-primary': '#1DD100',
+              }
+            }
+          }
+        }
+      </script>
+
+
+
+</head>
+<body class="font-railway">
+
+
+    <header>
+        <nav>
+    <div class="container mx-auto lg:px-20 pt-3 my-0 lg:my-4">
+     <div class="navbar bg-base-100">
+    <div class="navbar-start">
+    <div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+       </div>
+        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow text-base bg-base-100 rounded-box w-52">
+        <li><a class="text-red-600"></a>>Home</a></li>
+        <li><a>About</a></li>
+        <li><a>Pages</a></li>
+        <li><a>Blog</a></li>
+        <li><a>Contact</a></li>
+       </ul>
+        </div>
+       <a class="btn btn-ghost text-xl lg:text-4xl font-extrabold">Style-<span>Ticket</span></a>
+      </div>
+     <div class="navbar-center hidden lg:flex">
+     <ul class="menu menu-horizontal text-base px-1">
+      <li><a>Home</a></li>
+     <li><a>About</a></li>
+   <li><a>Pages</a></li>
+    <li><a>Blog</a></li>
+      <li><a>Contact</a></li>
+    </ul>
+      </div>
+    <div class="navbar-end">
+    <div class="hidden lg:flex">
+      </div>
+     <div>
+      <a class="btn color-primary text-[#1DD100] bg-[#1DD1001C] font-bold text-xl py-3 px-8">Bus <img src="images/bus-icon.png" alt=""></a>
+      </div>
+     </div>
+      </div>
+     </div>
+
+   </nav>
+
+   <!-- banner section  -->
+    
+        <div class="container mx-auto lg:px-20 pt-3 my-0 lg:my-4">
+     <section>
+        <div class=" bg-cover bg-center w-full h-[100%] lg:h-[100vh] rounded-lg bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.2)),url(images/banner.png)]">
+
+            <h1 class="text-6xl font-bold text-[#1DD100] pt-28 text-center "><span class="text-white">End-to-End Travel with</span></h1>
+            <h2 class="text-[#11D100] text-6xl font-bold pt-5 text-center">P Paribahan</h2>
+            <p class="text-[#FFF] text-sm font-normal opacity-85 mt-4 text-center leading-6">Yes, you can run unit tests and view the results directly within the app. The <br> integrated testing features allow for a streamlined .</p>
+            <div class="text-center pt-8">
+                <button class="btn bg-color-primary text-sm font-bold py-2 px-7">Buy Tickets</button>
+            </div>
+           </div>
+        </div>
+    </section>
+</div>
+
+    </header>
+    <main>
+        <div class="container mx-auto lg:px-20 pt-3 my-0 lg:my-4">
+
+        
+        <section>
+                <h2 class="text-center text-[#030712] text-4xl font-bold mt-36 ">Best offers for you</h2>
+            <div class="flex  justify-center items-center my-12 gap-6 grid-cols-2">
+               
+                <div class="flex-1" >
+                    <div class="card w-[550px] bg-[#FFBF0F]  no-re shadow-xl">
+                        <div class="card-body">
+                          <h2 class="card-title">15% OFF</h2>
+                          <p>on your next purchase</p>
+                          <p>use by January 2024</p>
+                        </div>
+                      </div>
+                </div>
+                
+                <!-- bg-[url('images/cupon-devider.png')] -->
+
+                <div class="flex-1">
+                    <div class="card w-[550px] bg-[#F78C9C] shadow-xl">
+                        <div class="card-body">
+                          <h2 class="card-title">15% OFF</h2>
+                          <p>on your next purchase</p>
+                          <p>use by January 2024</p>
+                          <div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <button class="text-[#1DD100] border py-2 px-4 rounded-md">
+                    <a href="">See All Offers</a>
+                </button>
+            </div>
+        </section>
+    </div>
+
+    </main>
+
+    
+    <footer>
+        <div class="container mx-auto lg:px-20 pt-3 my-0 lg:my-4">
+       <footer class="footer items-center p-4 bg-neutral text-neutral-content">
+  <aside class="items-center grid-flow-col">
+    <div>
+        <h3>Style-Ticket</h3>
+    </div>
+    <p>Copyright © 2024 - All right reserved</p>
+  </aside> 
+  <nav class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+   
+  
+  </nav>
+</footer>
+        </div>
+
+    </footer>
+
+
+   
+   
+    <script src="script.js"></script>
+
+</body>
+</html>
+
