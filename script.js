@@ -47,6 +47,11 @@ for(const btn of allBtn){
 }
 
 
+function setInnerText(id, value) {
+    document.getElementById(id).innerText = value;
+}
+
+
 function setInnerText(id, value){
     document.getElementById(id).innerText = value;
 }
